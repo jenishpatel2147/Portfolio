@@ -1,0 +1,14 @@
+.experience-header {
+    margin-top: 10vh;
+    padding-left: 50px;
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 25px;
+        padding-top: 20px;
+        line-height: 20px;
+        text-align: center;
+        @include media(">=tablet", "<desktop") {
+          text-align: center;
+        }
+    }
+}
