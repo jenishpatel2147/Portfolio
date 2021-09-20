@@ -1,5 +1,5 @@
 import React from "react";
-import Particles from "react-particles-js"
+//import Particles from "react-particles-js"
 import styled from "styled-components"
 
 const HeaderWrapper = styled.div`
@@ -8,9 +8,7 @@ const HeaderWrapper = styled.div`
   height: 0vh;
 `;
 
-const Background = () => {
-return (
-	<HeaderWrapper>
+/*
     <Particles
         params={{
 	    "particles": {
@@ -30,7 +28,12 @@ return (
 	        }
 	    }
 	    }} />
-		</HeaderWrapper>
+*/
+
+const Background = () => {
+return (
+	<HeaderWrapper>
+	</HeaderWrapper>
     )
 }
 
