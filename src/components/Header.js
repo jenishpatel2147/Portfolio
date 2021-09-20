@@ -2,28 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../information"
 import Lottie from "react-lottie"
-import TypeWriterEffect from 'react-typewriter-effect'
+// import TypeWriterEffect from 'react-typewriter-effect'
 
-// Icons
-import GitHubIcon from '@mui/icons-material/GitHub';
-import ResumeIcon from '@mui/icons-material/Description';
-import LinkedinIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-
-import { IconButton } from "@material-ui/core";
-
-const Header = ({LottieAnimation}) => {
-  const defaultsettings = {
-    loop: true,
-    autoplay: true,
-    animationData: LottieAnimation,
-  };
-  const scroll_able = document.querySelector('.scrollable-div')
-  return (
-    <div className="section" id="main">
-      <div className="container">
-        <div className="header-wrapper">
-          <Fade bottom>
+/*
           <TypeWriterEffect
             textStyle={{ 
               fontFamily: 'Helvetica',
@@ -39,6 +20,28 @@ const Header = ({LottieAnimation}) => {
             typeSpeed={15}
             scrollArea={scroll_able}
           />
+*/
+
+// Icons
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ResumeIcon from '@mui/icons-material/Description';
+import LinkedinIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+
+import { IconButton } from "@material-ui/core";
+
+const Header = ({LottieAnimation}) => {
+  const defaultsettings = {
+    loop: true,
+    autoplay: true,
+    animationData: LottieAnimation,
+  };
+  //const scroll_able = document.querySelector('.scrollable-div')
+  return (
+    <div className="section" id="main">
+      <div className="container">
+        <div className="header-wrapper">
+          <Fade bottom>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
