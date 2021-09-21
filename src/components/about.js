@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={imageLoc} style={{height: "400px", width: "400px"}} alt="about"></img>
+            <img src={imageLoc} class="pic" alt="about"></img>
           </div>
         </div>
       </div>

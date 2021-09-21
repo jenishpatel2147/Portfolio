@@ -96,11 +96,10 @@ export default {
   aboutImage:
     "https://github.com/jenishpatel2147/Portfolio/blob/main/src/images/Jenish-image.png",
 
-  //   Promotion Section --------------------------
+  //   Fun Section --------------------------
 
-  promotionHeading: "What I do for fun",
+  promotionHeading: "Fun",
   promotionPara: "Uploading new stuff as I have some new hobbies :)",
-  // End Promotion Section -----------------
 
   //   Contact Section --------------
 

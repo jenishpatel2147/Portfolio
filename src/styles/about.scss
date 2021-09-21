@@ -40,6 +40,7 @@
         text-align: center;
       }
     }
+    margin-bottom: 12vh;
   }
   .image-wrapper {
     width: 50%;
@@ -55,6 +56,17 @@
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
+    }
+  }
+  .pic {
+    height: 400px;
+    width: 400px;
+    @include media(">=phone", "<tablet") {
+      height: 200px !important;
+      width: 200px !important;    }
+    @include media(">=tablet", "<desktop") {
+      height: 350px !important;
+      width: 350px !important;
     }
   }
 }

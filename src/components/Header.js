@@ -68,8 +68,8 @@ const Header = ({LottieAnimation}) => {
               <IconButton size="large" onClick={() => window.open('https://github.com/jenishpatel2147')}>
                   <GitHubIcon fontSize="large"/>
               </IconButton>
-              <IconButton size="large" onClick={() => window.open('https://github.com/jenishpatel2147')}>
-                  <ResumeIcon fontSize="large" />
+              <IconButton size="large" onClick={() => window.open('https://github.com/jenishpatel2147/Portfolio/src/JenishPatelResume.pdf')}>
+                  <ResumeIcon fontSize="large"/>
               </IconButton>
               <IconButton size="large" onClick={() => window.open('https://www.linkedin.com/in/j253pate/')}>
                   <LinkedinIcon fontSize="large" />
