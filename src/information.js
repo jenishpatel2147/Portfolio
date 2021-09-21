@@ -94,7 +94,7 @@ export default {
   aboutParaThree:
   "Beyond coding on my spare time I have many other passions. I watch and play many sports from football, soccer, to cricket, volleyball. I mainly watch the Premier League have been supporting Manchester United for over a decade now. I also support the Cleveland Browns in the NFL, but I have never been to an NFL game. Hopefully sometime in the future.",
   aboutImage:
-    "../images/Jenish-image.png",
+    "./images/Jenish-image.png",
 
   //   Promotion Section --------------------------
 
