@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-![Web 1920 – 1]()
+http://jenishpatel.software
 
 ## How To Use 
 
@@ -14,20 +14,21 @@ $ git clone
 $ cd react-personal-website
 
 # Install dependencies
-$ yarn
+$ npm install
 
-#Start's development server
-$ gatsby develop
+#Start Server
+$ npm start
 ```
 
 
 ## Deployment
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+
+Deployed on the netlify
 
 ## Technologies Used
 
 - [React](https://reactjs.org/)
 - [Gatsby](https://www.gatsbyjs.com/)
+- Many other librarires
 
 
