@@ -47,7 +47,7 @@ export default {
     {
       title: "League of Legends App",
       description: "Tracks winrates, playrates and base stats for champions in the game League of Legends.",
-      img: "https://github.com/jenishpatel2147/LoLStatTracker/blob/main/client/src/Assets/Images/lol_logo.png",
+      img: "https://www.deviantart.com/nibblesmekibbles/art/League-of-Legends-Mid-Wallpaper-371244763",
       url: "https://github.com/jenishpatel2147/LoLStatTracker",
     },
     {
@@ -94,7 +94,7 @@ export default {
   aboutParaThree:
   "Beyond coding on my spare time I have many other passions. I watch and play many sports from football, soccer, to cricket, volleyball. I mainly watch the Premier League have been supporting Manchester United for over a decade now. I also support the Cleveland Browns in the NFL, but I have never been to an NFL game. Hopefully sometime in the future.",
   aboutImage:
-    "./images/Jenish-image.png",
+    "https://github.com/jenishpatel2147/Portfolio/blob/main/src/images/Jenish-image.png",
 
   //   Promotion Section --------------------------
 
