@@ -47,7 +47,7 @@ export default {
     {
       title: "League of Legends App",
       description: "Tracks winrates, playrates and base stats for champions in the game League of Legends.",
-      img: "https://www.deviantart.com/nibblesmekibbles/art/League-of-Legends-Mid-Wallpaper-371244763",
+      img: "https://cdn.guidingtech.com/imager/assets/196282/Best-League-of-Legends-Wallpapers-1_935adec67b324b146ff212ec4c69054f.webp",
       url: "https://github.com/jenishpatel2147/LoLStatTracker",
     },
     {
@@ -69,7 +69,7 @@ export default {
     {
       title: "Machine Learning Models",
       description: "Learning Machine Learning",
-      img: "",
+      img: "https://www.digikey.com/-/media/MakerIO/Images/projects/2019/12/30/d8b7326d9a2845c0b4d1eea27c9f3088.jpg",
       url: "",
     },
     {
@@ -81,7 +81,7 @@ export default {
     {
       title: "Any ideas?",
       description: "",
-      img: "",
+      img: "https://thumbs.dreamstime.com/z/cartoon-thinking-man-question-mark-vector-illustration-male-confusing-portrait-thoughtful-boy-smart-men-solving-190499132.jpg",
       url: "",
     },
   ],
