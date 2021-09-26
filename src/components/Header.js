@@ -2,25 +2,8 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../information"
 import Lottie from "react-lottie"
-// import TypeWriterEffect from 'react-typewriter-effect'
-
-/*
-          <TypeWriterEffect
-            textStyle={{ 
-              fontFamily: 'Helvetica',
-              fontSize: '1.1em',
-              marginBottom: '20px'}}
-            startDelay={2000}
-            cursorColor="white"
-            multiText={[
-              "Hi, I'm Jenish 👋",
-              "3rd year CS @ University of Waterloo.",
-              "Passionate coder looking to explore and learn new concepts."
-            ]}
-            typeSpeed={15}
-            scrollArea={scroll_able}
-          />
-*/
+import Typed from 'typed.js'
+import { useRef, useEffect} from 'react';
 
 // Icons
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -31,17 +14,48 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { IconButton } from "@material-ui/core";
 
 const Header = ({LottieAnimation}) => {
+
+  //const scroll_able = document.querySelector('.scrollable-div')
   const defaultsettings = {
     loop: true,
     autoplay: true,
     animationData: LottieAnimation,
   };
-  //const scroll_able = document.querySelector('.scrollable-div')
+  
+  // Create reference to store the DOM element containing the animation
+	const el = useRef(null);
+  // Create reference to store the Typed instance itself
+	const typed = useRef(null);
+
+  useEffect(() => {
+    const options = {
+    	strings: [
+        "Hi, I'm <strong>Jenish</strong> 👋",
+        "3rd year CS student @ UWaterloo.",
+        "Passionate <strong>coder</strong> looking looking for <strong>internships</strong>."
+      ],
+      typeSpeed: 50,
+      backSpeed: 100,
+    };
+
+    // elRef refers to the <span> rendered below
+    typed.current = new Typed(el.current, options);
+  
+    return () => {
+      // Make sure to destroy Typed instance during cleanup
+      // to prevent memory leaks
+      typed.current.destroy();
+    }
+  }, [])
+  
   return (
     <div className="section" id="main">
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
+            <div className="type-wrap">
+              <span style={{ whiteSpace: 'pre' }} ref={el} />
+            </div>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">

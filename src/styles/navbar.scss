@@ -10,20 +10,24 @@
   .links-wrapper {
     button {
       text-decoration: none;
-      color: rgb(255, 255, 255) !important;
+      color: #AEF359 !important;
+      opacity: 1;
       padding: 10px;
-      padding-right: 18px;
+      padding-right: 25px;
       // letter-spacing: 2px !important;
       font-family: "Open Sans";
-      opacity: 0.7;
+      opacity: 1;
       transition: all 0.2s ease-in-out;
       font-size: 18px;
       background-color: transparent;
       outline: none;
       border: 0px;
       cursor: pointer;
+      @include media(">=phone", "<tablet") {
+        padding-right: 1px;
+      }
       &:hover {
-        opacity: 1;
+        color: #03AC13 !important;
       }
     }
     .active {
