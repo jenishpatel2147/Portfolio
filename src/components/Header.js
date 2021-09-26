@@ -32,9 +32,11 @@ const Header = ({LottieAnimation}) => {
     	strings: [
         "Hi, I'm <strong>Jenish</strong> 👋",
         "3rd year CS student @ UWaterloo.",
-        "Passionate <strong>coder</strong> looking looking for <strong>internships</strong>."
+        "Passionate <strong>coder</strong> looking for <strong>internships</strong>."
       ],
       typeSpeed: 50,
+      smartBackspace: true,
+      loop: true,
       backSpeed: 100,
     };
 
