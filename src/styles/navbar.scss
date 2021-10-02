@@ -25,6 +25,7 @@
       cursor: pointer;
       @include media("<tablet") {
         padding-right: 1px;
+        font-size: 12px;
       }
       &:hover {
         color: #03AC13 !important;
